@@ -24,10 +24,12 @@ public class LogEntry {
 	public void setMoment(Date moment) {
 		this.moment = moment;
 	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(username);
 	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
